@@ -8,23 +8,23 @@ package com.mycompany.lab08_abstractfactory;
  *
  * @author Chris Canenguez
  */
-public class ProfessionalFactory implements OutfitFactory
+public class CasualFactory implements OutfitFactory
 {
     @Override
     public Top showTop()
     {
-        return new ProfessionalTop();
+        return new CasualTop();
     } // End showTop.
     
     @Override
     public Pant showPant()
     {
-        return new ProfessionalPant();
+        return new CasualPant();
     } // End showPant.
     
     @Override
     public Shoes showShoes()
     {
-        return new ProfessionalShoes();
+        return new CasualShoes();
     } // End showShoes.
-} // End ProfessionalFactory.
+} // End CasualFactory.
