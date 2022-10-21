@@ -8,11 +8,11 @@ package com.mycompany.lab08_abstractfactory;
  *
  * @author Chris Canenguez
  */
-public class ProfessionalShoes implements Shoes
+public class CasualShoes implements Shoes
 {
     @Override
     public void typeOfShoes()
     {
-        System.out.println("These are professional shoes.");
+        System.out.println("These are casual shoes.");
     } // End typeOfShoes.
-} // End ProfessionalShoes.
+} // End CasualShoes.
