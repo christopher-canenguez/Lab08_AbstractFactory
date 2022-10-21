@@ -8,8 +8,11 @@ package com.mycompany.lab08_abstractfactory;
  *
  * @author Chris Canenguez
  */
-public interface Top 
+public class PartyTop implements Top
 {
-    // Every type of shirt will display which family it belongs to.
-    void typeOfTop();
-} // End Top interface.
+    @Override
+    public void typeOfTop()
+    {
+        System.out.println("This is a party top.");
+    } // End typeOfTop.
+} // End PartyTop.

@@ -7,7 +7,7 @@ package com.mycompany.lab08_abstractfactory;
 
 /**
  *
- * @author canen
+ * @author Chris Canenguez
  */
 public class Lab08_AbstractFactory {
 

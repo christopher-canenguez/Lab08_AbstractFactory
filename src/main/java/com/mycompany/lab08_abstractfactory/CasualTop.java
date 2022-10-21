@@ -6,7 +6,7 @@ package com.mycompany.lab08_abstractfactory;
 
 /**
  *
- * @author canen
+ * @author Chris Canenguez
  */
 public class CasualTop implements Top
 {
@@ -15,4 +15,4 @@ public class CasualTop implements Top
     {
         System.out.println("This is a casual top.");
     } // End typeOfTop.
-} // End ProfessionalTop.
+} // End CasualTop.
