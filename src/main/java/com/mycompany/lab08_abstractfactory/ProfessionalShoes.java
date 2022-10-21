@@ -13,6 +13,6 @@ public class ProfessionalShoes implements Shoes
     @Override
     public void typeOfShoes()
     {
-        System.out.println("These are professional shoes.");
+        System.out.println("These are professional shoes."); // Display type of shoes.
     } // End typeOfShoes.
 } // End ProfessionalShoes.

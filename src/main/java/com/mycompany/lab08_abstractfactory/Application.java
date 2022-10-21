@@ -10,12 +10,14 @@ package com.mycompany.lab08_abstractfactory;
  */
 public class Application 
 {
+    // Outfit features.
     private Pant pant;
     private Top top;
     private Shoes shoes;
     
     public Application(OutfitFactory factory)
     {
+        // Get outfit type based on family.
         pant = factory.showPant();
         top = factory.showTop();
         shoes = factory.showShoes();
@@ -23,6 +25,7 @@ public class Application
     
     public void revealOutfit()
     {
+        // Display outfit type.
         pant.typeOfPant();
         top.typeOfTop();
         shoes.typeOfShoes();

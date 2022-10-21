@@ -13,6 +13,6 @@ public class CasualShoes implements Shoes
     @Override
     public void typeOfShoes()
     {
-        System.out.println("These are casual shoes.");
+        System.out.println("These are casual shoes."); // Display type of shoes.
     } // End typeOfShoes.
 } // End CasualShoes.

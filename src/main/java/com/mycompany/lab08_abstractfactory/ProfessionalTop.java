@@ -13,6 +13,6 @@ public class ProfessionalTop implements Top
     @Override
     public void typeOfTop()
     {
-        System.out.println("This is a professional top.");
+        System.out.println("This is a professional top."); // Display type of top.
     } // End typeOfTop.
 } // End ProfessionalTop.

@@ -13,18 +13,18 @@ public class PartyFactory implements OutfitFactory
     @Override
     public Top showTop()
     {
-        return new PartyTop();
+        return new PartyTop(); // Create party top.
     } // End showTop.
     
     @Override
     public Pant showPant()
     {
-        return new PartyPant();
+        return new PartyPant(); // Create party pant.
     } // End showPant.
     
     @Override
     public Shoes showShoes()
     {
-        return new PartyShoes();
+        return new PartyShoes(); // Create party shoes.
     } // End showShoes.
 } // End PartyFactory.

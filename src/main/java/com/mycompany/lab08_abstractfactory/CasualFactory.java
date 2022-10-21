@@ -13,18 +13,18 @@ public class CasualFactory implements OutfitFactory
     @Override
     public Top showTop()
     {
-        return new CasualTop();
+        return new CasualTop(); // Create casual top.
     } // End showTop.
     
     @Override
     public Pant showPant()
     {
-        return new CasualPant();
+        return new CasualPant(); // Create casual pant.
     } // End showPant.
     
     @Override
     public Shoes showShoes()
     {
-        return new CasualShoes();
+        return new CasualShoes(); // Create casual shoes.
     } // End showShoes.
 } // End CasualFactory.

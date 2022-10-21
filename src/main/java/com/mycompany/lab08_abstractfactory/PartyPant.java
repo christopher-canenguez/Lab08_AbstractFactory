@@ -13,6 +13,6 @@ public class PartyPant implements Pant
     @Override
     public void typeOfPant()
     {
-        System.out.println("This is a party pant.");
+        System.out.println("This is a party pant."); // Display type of pants.
     } // End typeOfPant.
 } // End PartyPant.

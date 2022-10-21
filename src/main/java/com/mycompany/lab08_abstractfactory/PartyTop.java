@@ -13,6 +13,6 @@ public class PartyTop implements Top
     @Override
     public void typeOfTop()
     {
-        System.out.println("This is a party top.");
+        System.out.println("This is a party top."); // Display type of top.
     } // End typeOfTop.
 } // End PartyTop.

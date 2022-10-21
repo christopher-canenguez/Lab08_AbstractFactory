@@ -13,6 +13,6 @@ public class PartyShoes implements Shoes
     @Override
     public void typeOfShoes()
     {
-        System.out.println("These are party shoes.");
+        System.out.println("These are party shoes."); // Display type of shoes.
     } // End typeOfShoes.
 } // End PartyShoes.

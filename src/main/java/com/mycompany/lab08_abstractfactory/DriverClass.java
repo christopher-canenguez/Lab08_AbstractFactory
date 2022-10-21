@@ -20,6 +20,7 @@ public class DriverClass
         System.out.println("What kind of outfit do you desire? Please enter 'professional', 'casual' or 'party' here: ");
         String outfitType = scan.nextLine(); // Read user input.
         
+        // Based on type of outfit user wants, factory will create outfit based on type.
         switch(outfitType)
         {
             case "professional":

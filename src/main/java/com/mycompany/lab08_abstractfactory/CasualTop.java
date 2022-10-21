@@ -13,6 +13,6 @@ public class CasualTop implements Top
     @Override
     public void typeOfTop()
     {
-        System.out.println("This is a casual top.");
+        System.out.println("This is a casual top."); // Display type of top.
     } // End typeOfTop.
 } // End CasualTop.

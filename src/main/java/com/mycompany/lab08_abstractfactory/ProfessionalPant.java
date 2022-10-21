@@ -13,6 +13,6 @@ public class ProfessionalPant implements Pant
     @Override
     public void typeOfPant()
     {
-        System.out.println("This is a professional pant.");
+        System.out.println("This is a professional pant."); // Display type of pant.
     } // End typeOfPant.
 } // End ProfessionalPant.

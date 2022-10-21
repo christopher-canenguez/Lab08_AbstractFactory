@@ -13,6 +13,6 @@ public class CasualPant implements Pant
     @Override
     public void typeOfPant()
     {
-        System.out.println("This is a casual pant.");
+        System.out.println("This is a casual pant."); // Display type of pant.
     } // End typeOfPant.
 } // End CasualPant.
