@@ -10,7 +10,7 @@ package com.mycompany.lab08_abstractfactory;
  */
 public interface OutfitFactory 
 {
-    void showTop();
-    void showPant();
-    void showShoes();
+    Top showTop();
+    Pant showPant();
+    Shoes showShoes();
 } // End OutfitFactory.
